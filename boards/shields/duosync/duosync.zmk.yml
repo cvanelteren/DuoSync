@@ -1,0 +1,12 @@
+file_format: "1"
+id: duosync
+name: Duosync
+type: shield
+url: https://github.com/cvanelteren/duosync/
+requires: [xiao_ble]
+exposes: []
+features:
+  - keys
+siblings:
+  - duosync_left
+  - duosync_right

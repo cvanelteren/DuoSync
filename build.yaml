@@ -5,15 +5,14 @@
 # pass flags to the build command and `artifact-name` to assign a name to
 # distinguish build outputs from each other:
 #
-# board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#   - board: nice_nano_v2
-#     shield: corne_left
-#     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-#     artifact-name: corne_left_with_logging
-#
+board: [ "xiao_ble_seeed" ]
+shield: [ "duosync_left", "duosync_right" ]
+include:
+   - board: xiao_ble 
+     shield: reviung41
+   - board: xiao_ble
+     shield: duosync_right
+     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+     artifact-name: duosync_left_with_logging
+
 ---
