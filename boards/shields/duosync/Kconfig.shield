@@ -1,3 +1,6 @@
+config SHIELD_DUOSYNC
+    def_bool $(shields_list_contains,duosync)
+
 config SHIELD_DUOSYNC_LEFT
     def_bool $(shields_list_contains,duosync_left)
 
