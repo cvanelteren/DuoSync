@@ -9,8 +9,8 @@ board: [ "xiao_ble" ]
 shield: [ "duosync_left", "duosync_right" ]
 include:
    - board: xiao_ble 
-     shield: reviung41
+     shield: duosync
    - board: xiao_ble
-     shield: duosync_right
+     shield: duosync
      cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
      artifact-name: duosync_left_with_logging
