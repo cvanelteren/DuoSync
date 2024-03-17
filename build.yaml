@@ -5,7 +5,7 @@
 # pass flags to the build command and `artifact-name` to assign a name to
 # distinguish build outputs from each other:
 #
-board: [ "xiao_ble_seeed" ]
+board: [ "xiao_ble" ]
 shield: [ "duosync_left", "duosync_right" ]
 include:
    - board: xiao_ble 
@@ -14,5 +14,3 @@ include:
      shield: duosync_right
      cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
      artifact-name: duosync_left_with_logging
-
----
