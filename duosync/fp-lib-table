@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "xiaobleseed")(type "KiCad")(uri "${KIPRJMOD}/xiaobleseed.pretty")(options "")(descr ""))
+)

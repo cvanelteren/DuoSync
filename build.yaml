@@ -8,9 +8,11 @@
 board: [ "xiao_ble" ]
 shield: [ "duosync_left", "duosync_right" ]
 include:
-   - board: xiao_ble 
+   - board: seeeduino_xiao_ble
      shield: duosync
-   - board: xiao_ble
+   - board: seeeduino_xiao_ble
      shield: duosync
      cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
      artifact-name: duosync_left_with_logging
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
