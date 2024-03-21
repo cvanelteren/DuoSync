@@ -1,5 +1,6 @@
-# Welcome to Duosync - a BLE wireless split keyboard powered by ZMK
+* Welcome to Duosync - a BLE wireless split keyboard powered by ZMK
 The keyboard is designed by me, and is a spirtual successor to [[https://github.com/cvanelteren/Elanor/][Elanor]].
+
 
 [[file:./figures/duosync.jpg]]
 
