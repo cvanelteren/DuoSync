@@ -4,3 +4,15 @@ The keyboard is designed by me, and is a spirtual successor to [[https://github.
 
 [[file:./figures/duosync.jpg]]
 
+* Bill Of Materials
+
+|------------------------------------+----------+------------------|
+| Item                               | Quantity | Price indication |
+|------------------------------------+----------+------------------|
+| XIAO BLE SEEED                     |        2 | 15$              |
+| Kailh/Gateron hotswappable sockets |       52 | 12$              |
+| Duosync PCB                        |        2 | 5$               |
+| Keyswitches                        |       52 | 30$              |
+| Battery Lithium ion 3.7V           |        2 | 15$              |
+| Case                               |        2 | Depends ;-)       |
+|------------------------------------+----------+------------------|
